@@ -1,4 +1,7 @@
-<?php include 'database.php'; ?>
+<?php include 'database.php';
+require_once 'add_resident.php';
+
+?>
 <!DOCTYPE html>
 <html>
 <head>

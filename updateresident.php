@@ -7,6 +7,7 @@ $myupdate = new Resident();
 if(isset($_POST['update'])) {
     $id = $_POST['id'];
     $u = $myupdate->getResidentById($db, $id);
+
 }
 if (isset($_POST['updater'])) {
     $id = $_POST['uid'];
